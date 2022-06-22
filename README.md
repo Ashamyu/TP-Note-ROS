@@ -43,7 +43,10 @@ rosrun marker_visualizer random_walk.py
 rviz
 ```
 
-On RVIZ click on ADD AND BY TOPIC THEN SELECT THE TOPIC.
+On RVIZ click :
+1 - ADD
+2 - BY TOPIC  
+3 - SELECT THE TOPIC
 
 
 
