@@ -7,9 +7,8 @@ from geometry_msgs.msg import Point
 import rospy
 import math
 
-topic = '/space_delimiters'
 publisher = rospy.Publisher(topic, MarkerArray, queue_size = 10)
-publisher_line = rospy.Publisher('/space_delimiters', Marker, queue_size=3)
+publisher_line = rospy.Publisher('/vis_marker', Marker, queue_size=3)
 
 
 rospy.init_node('register')
